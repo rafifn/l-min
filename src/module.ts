@@ -20,7 +20,7 @@ export default defineNuxtModule<ModuleOptions>({
     addComponent({
       name: 'card',
       export: 'el-card',
-      filePath: 'element-plus/es/card/index'
+      filePath: 'element-plus/es/components/card/index'
     })
   }
 })
