@@ -15,7 +15,7 @@ export default defineNuxtModule<ModuleOptions>({
       filePath: resolver.resolve('runtime/components/LCard.vue')
     })
     if(nuxt.options.vite.optimizeDeps && nuxt.options.vite.optimizeDeps.include) {
-      nuxt.options.vite.optimizeDeps.include.push('element-plus', 'element-plus > dayjs', 'element-plus > dayjs/plugin/customParseFormat.js', 'element-plus > dayjs/plugin/localeData.js', 'dayjs/plugin/isSameOrAfter.js', 'dayjs/plugin/isSameOrBefore.js')
+      nuxt.options.vite.optimizeDeps.include.push('@element-plus/nuxt')
     }
   }
 })
