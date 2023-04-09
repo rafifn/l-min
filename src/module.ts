@@ -15,6 +15,6 @@ export default defineNuxtModule<ModuleOptions>({
       transpile: 'auto',
       global: true
     })
-    nuxt.options.css = ['element-plus/dist/index.css']
+    nuxt.options.css.push(resolver.resolve('element-plus/dist/index.css'))
   }
 })

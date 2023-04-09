@@ -1,6 +1,8 @@
 <template>
   <el-card>
-    <template #header />
+    <template #header>
+      <slot name="header" />
+    </template>
     <slot />
   </el-card>
 </template>
