@@ -1,3 +1,3 @@
 export default defineNuxtConfig({
-  modules: ['../src/module', '@element-plus/nuxt']
+  modules: ['../src/module']
 })
